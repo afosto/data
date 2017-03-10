@@ -1,0 +1,30 @@
+{
+  "name": "afosto/data",
+  "description": "Afosto data models for the API",
+  "type": "package",
+  "keywords": [
+    "afosto",
+    "data"
+  ],
+  "homepage": "https://afosto.com",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Afosto Team",
+      "homepage": "https://afosto.com"
+    }
+  ],
+  "require": {
+    "afosto/bp": "^2.0"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^3.2",
+    "filp/whoops": "^2.1",
+    "symfony/console": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Afosto\\Data\\": "src"
+    }
+  }
+}
