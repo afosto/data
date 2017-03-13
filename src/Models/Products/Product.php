@@ -13,7 +13,7 @@ use Afosto\Data\Components\Model;
  * @property \DateTime       $updated_at
  * @property Ledger          $ledger
  * @property Supplier        $supplier
- * @property Descriptor[]    $descriptor
+ * @property Descriptor[]    $descriptors
  * @property Item[]          $items
  * @property Specification[] $specifications
  * @property Image[]         $images
@@ -32,7 +32,7 @@ class Product extends Model {
             ['updated_at', '\DateTime', false],
             ['ledger', 'Ledger', false],
             ['supplier', 'Supplier', false],
-            ['descriptor', 'Descriptor[]', true],
+            ['descriptors', 'Descriptor[]', true],
             ['items', 'Item[]', true],
             ['specifications', 'Specification[]', false],
             ['images', 'Image[]', false],
